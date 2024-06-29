@@ -9,7 +9,7 @@ function Sign ()
         const[email,setEmail]=useState('');
         const[pass1,setPass1]=useState('');
         const[pass2,setPass2]=useState('');
-        const[error,setError]=useState('signed in');
+        const[error,setError]=useState('Signed in');
         function handleChange1(e){
             setPass1(e.target.value)
 
@@ -39,7 +39,7 @@ function Sign ()
                 }
         }
     return(
-        <div class="all" style={{"backgroundImage":'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDsou-9Yj0s2NTQ1pGx4zvMQj12BW1NUvgLA&s)',height:"100vh",backgroundSize:"Cover"}}>
+        <div class="all" style={{"backgroundImage":'url(https://images.unsplash.com/photo-1517315003714-a071486bd9ea?fm=jpg&w=3000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YWVzdGhldGljJTIwd2FsbHBhcGVyfGVufDB8fDB8fHww)',height:"100vh",backgroundSize:"Cover"}}>
         <div class="content" style={{"display": "list-item",
         "justifyContent": "center",
         "paddingLeft": "40%",
@@ -67,7 +67,7 @@ function Sign ()
                 "display": "flex",
                 "paddingTop": "10px",
                 "justifyContent": "space-between"}}>
-                <label for="">password</label>
+                <label for="">Password</label>
                 <input type="password" placeholder="Enter the password" onChange={handleChange1} />
 
             </div>
@@ -75,8 +75,8 @@ function Sign ()
                 "display": "flex",
                 "paddingTop": "10px",
                 "justifyContent": "space-between"}}>
-                <label for="">re-enter password</label>
-                <input type="password" placeholder="re-enter password" onChange={handleChange2}  />
+                <label for="">Re-enter password</label>
+                <input type="password" placeholder="Re-enter password" onChange={handleChange2}  />
             </div>
             <div class="f" style={{ "paddingLeft": "280px",
                 "paddingTop": "10px"}}>

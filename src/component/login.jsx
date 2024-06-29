@@ -23,15 +23,17 @@ function Login ()
             
         }
     return(
-        <div class="contents" style={{"backgroundImage":'url(https://c4.wallpaperflare.com/wallpaper/527/757/70/aesthetic-neon-wallpaper-preview.jpg)',height:'100vh',backgroundSize:'cover'}}>
+        <div class="contents" style={{"backgroundImage":'url(bg-img.jpg)',height:'100vh',backgroundSize:'cover'}}>
         <div class="content" style={{"display": "list-item",
                 "justifyContent": "center",
-                marginInline:'auto',
+                "marginInline":'auto',
                 "width": "max-content",
                 "position": "relative",
                 "align": "center",
-                "paddingTop": "30px"}}>
-        <h1>LOGIN</h1   >
+                "paddingTop": "30px"
+                }}>
+        <h1 class="head" style={{textAlign:'center'}}>LOGIN</h1   >
+        
         <div class="a" style={{"padding": "auto",
                 "display": "flex",
                 "paddingTop": "30px",
