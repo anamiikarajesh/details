@@ -11,7 +11,7 @@ export default function AboutUs() {
     
      
         <footer style={{ marginTop: '50px', fontStyle: 'italic' }}>
-          Made by Amith
+          Made by A
         </footer>
       </div>
     </div>
