@@ -6,7 +6,7 @@ export default function AboutUs() {
     <div style={{ textAlign: 'center', padding: '50px' }}>
         <h1>About Us</h1>
         <p>
-          Welcome to our website!
+          Explore the heights of adventure and discovery amidst breathtaking mountain landscapes with us at Beyond the Crest.
         </p>
     
      
