@@ -121,7 +121,7 @@ const styles = {
     color: 'green'
   },
   background: {
-    backgroundImage:'url(https://c4.wallpaperflare.com/wallpaper/60/74/559/architecture-city-cityscape-bridge-wallpaper-preview.jpg)',
+    backgroundImage:'url(forgot.jpg)',
     backgroundSize:'cover',
     height:'100vh'
   }
