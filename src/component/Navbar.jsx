@@ -7,7 +7,7 @@ class LoginPage extends React.Component {
     render() {
         return (
             <div className="container" style={{backgroundImage:'url(main.jpg)',height:'100vh',backgroundSize:'cover'}}>
-                <h1 style={{ textAlign: 'center', color: '#15CDCA', fontWeight: 'bold' ,paddingTop:'20px'}}>Jyothi Engineering College</h1>
+                <h1 style={{ textAlign: 'center', color: 'black', fontWeight: 'bold' ,paddingTop:'20px'}}>Beyond the Crest</h1>
                 <div className="button-container" style={{ textAlign: 'center' , marginTop: '20px' }}>
                     <button className="student-login"  style={{ backgroundColor: '#87CDCE', marginRight: '10px', padding: '10px 20px', border: 'none', borderRadius: '5px', cursor: 'pointer' }}>Home</button>
                     <a href='/login'><button  className="faculty-login"  style={{ backgroundColor: '#87CDCE', marginRight: '10px', padding: '10px 20px', border: 'none', borderRadius: '5px', cursor: 'pointer' }}>Login</button></a>
