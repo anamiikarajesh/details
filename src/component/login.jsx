@@ -23,7 +23,7 @@ function Login ()
             
         }
     return(
-        <div class="contents" style={{"backgroundImage":'url(vec.jpg)',height:'100vh',backgroundSize:'cover',color:'black'}}>
+        <div class="contents" style={{"backgroundImage":'url(lala.jpg)',height:'100vh',backgroundSize:'cover',color:'white'}}>
         <div class="content" style={{"display": "list-item",
                 "justifyContent": "center",
                 "marginInline":'auto',
@@ -52,11 +52,11 @@ function Login ()
                 "paddingTop": "10px"}}><button onClick={handleLogin}>Login</button></div>
         <div class="d">
             <p>If you have not registered</p>
-            <a href="/Sign" style={{"color":"black"}}>Signup</a>
+            <a href="/Sign" style={{"color":"violet"}}>Signup</a>
         </div>
         <div class="e" style={{}}>
             <p>Forgot your password?</p>
-            <a href="/Forgot" style={{color:"black"}}>Forgot Password</a>
+            <a href="/Forgot" style={{color:"violet"}}>Forgot Password</a>
         </div>
     </div>
     </div>
