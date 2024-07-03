@@ -39,7 +39,7 @@ function Sign ()
                 }
         }
     return(
-        <div class="all" style={{"backgroundImage":'url(mint.jpg)',height:"100vh",backgroundSize:"Cover",color :'black'}}>
+        <div class="all" style={{"backgroundImage":'url(last.jpg)',height:"100vh",backgroundSize:"Cover",color :'white'}}>
         <div class="content" style={{"display": "list-item",
         "justifyContent": "center",
         "paddingLeft": "40%",
