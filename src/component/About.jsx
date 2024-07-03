@@ -19,7 +19,7 @@ export default function AboutUs() {
 };
 const styles={
   container:{
-    backgroundImage:'url(https://cdn.dribbble.com/users/144388/screenshots/1515241/about-us-gif.gif)',
+    backgroundImage:'url(log.jpg)',
     backgroundSize:'cover',
     height:'100vh',
 }
