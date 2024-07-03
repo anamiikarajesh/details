@@ -23,7 +23,7 @@ function Login ()
             
         }
     return(
-        <div class="contents" style={{"backgroundImage":'url(lala.jpg)',height:'100vh',backgroundSize:'cover',color:'white'}}>
+        <div class="contents" style={{"backgroundImage":'url(stand.avif)',height:'100vh',backgroundSize:'cover',color:'white'}}>
         <div class="content" style={{"display": "list-item",
                 "justifyContent": "center",
                 "marginInline":'auto',
