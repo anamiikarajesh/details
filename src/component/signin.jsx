@@ -39,7 +39,7 @@ function Sign ()
                 }
         }
     return(
-        <div class="all" style={{"backgroundImage":'url(ok.jpg)',height:"100vh",backgroundSize:"Cover",color :'#000033'}}>
+        <div class="all" style={{"backgroundImage":'url(ok.jpg)',height:"100vh",backgroundSize:"Cover",color :'black'}}>
         <div class="content" style={{"display": "list-item",
         "justifyContent": "center",
         "paddingLeft": "40%",
@@ -83,8 +83,8 @@ function Sign ()
                 <button onClick={handleSign}> Sign In</button>
             </div>
             <div class="g">
-                <p>If you have already registered </p>
-                <a href="./login"  style={{"color":"black"}}>Login</a>
+                <p style={{ color: 'white' }}>If you have already registered</p>
+                <a href="./login"  style={{"color":"white"}}>Login</a>
                 <h1>{error}</h1>
             </div>
 
