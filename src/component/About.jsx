@@ -6,9 +6,9 @@ export default function AboutUs() {
     <div style={{ textAlign: 'center', padding: '50px' }}>
         <h1>About Us</h1>
         <p>
-          Explore the heights of adventure and 
-          discovery amidst breathtaking mountain
-          landscapes with us at Beyond the Crest.
+          Embark on a journey of adventure and discovery with us at Beyond the Crest.
+          We're passionate about exploring the world's most breathtaking mountain landscapes and sharing captivating tales that ignite a sense of curiosity. 
+          Join our community as we delve into thrilling escapades, uncover hidden gems, and embrace the spirit of exploration beyond every crest.
         </p>
     
      
