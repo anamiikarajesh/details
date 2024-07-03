@@ -121,7 +121,7 @@ const styles = {
     color: 'green'
   },
   background: {
-    backgroundImage:'url(forgot.jpg)',
+    backgroundImage:'url(yes.jpg)',
     backgroundSize:'cover',
     height:'100vh'
   }
