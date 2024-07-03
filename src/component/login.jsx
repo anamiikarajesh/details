@@ -23,7 +23,7 @@ function Login ()
             
         }
     return(
-        <div class="contents" style={{"backgroundImage":'url(https://www.pinterest.co.uk/pin/hd-laptop-wallpaper-background-aesthetic-aura-sparkle-lilac--383439355790828567/)',height:'100vh',backgroundSize:'cover'}}>
+        <div class="contents" style={{"backgroundImage":'url(lala.jpg)',height:'100vh',backgroundSize:'cover'}}>
         <div class="content" style={{"display": "list-item",
                 "justifyContent": "center",
                 "marginInline":'auto',
